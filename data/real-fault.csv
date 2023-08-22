@@ -1,12 +1,12 @@
-fileName,buggy_line,rank,rFail,rPass,num_failed_cetest,num_passed_cetest,num_failed_stetest,num_passed_stetest,num_failed_test,failed_tests_coverage_length,num_passed_test_execute_buggy_line,num_failed_test_execute_buggy_line,bug_id,type_reefail,type_reepass
+fileName,buggy_line,rank,rEEFail,rEEPass,num_failed_cetest,num_passed_cetest,num_failed_stetest,num_passed_stetest,num_failed_test,failed_tests_coverage_length,num_passed_test_execute_buggy_line,num_failed_test_execute_buggy_line,bug_id,type_reefail,type_reepass
 com/fasterxml/jackson/core/util/JsonParserSequence.java,107,254.5,0,0,0,0,0,0,1,396,1,1,jacksoncore016,rEEFail=0,rEEPass=0
 com/fasterxml/jackson/core/filter/FilteringParserDelegate.java,717,645,0,0,0,0,0,0,12,1180,3,8,jacksoncore022,rEEFail=0,rEEPass=0
 com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java,126,214,0,0,0,0,0,0,1,324,1,1,jacksoncore003,rEEFail=0,rEEPass=0
-com/fasterxml/jackson/core/io/IOContext.java,274,11.5,0,NaN,0,0,0,0,1,23,0,1,jacksoncore014,rEEFail=0,0<rEEPass<1
+com/fasterxml/jackson/core/io/IOContext.java,274,11.5,0,0,0,0,0,0,1,23,0,1,jacksoncore014,rEEFail=0,0<rEEPass<1
 com/fasterxml/jackson/core/JsonPointer.java,193,27.5,0,0,0,0,0,0,1,42,4,1,jacksoncore006,rEEFail=0,rEEPass=0
-com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java,108,101,0,NaN,0,0,0,0,1,206,0,1,jacksoncore026,rEEFail=0,0<rEEPass<1
+com/fasterxml/jackson/core/json/async/NonBlockingJsonParser.java,108,101,0,0,0,0,0,0,1,206,0,1,jacksoncore026,rEEFail=0,0<rEEPass<1
 com/fasterxml/jackson/core/util/TextBuffer.java,307,6,0,0,0,0,0,0,1,15,0,1,jacksoncore008,rEEFail=0,rEEPass=0
-com/fasterxml/jackson/core/filter/FilteringParserDelegate.java,238,219,0,NaN,0,0,0,0,3,887,0,3,jacksoncore021,rEEFail=0,0<rEEPass<1
+com/fasterxml/jackson/core/filter/FilteringParserDelegate.java,238,219,0,0,0,0,0,0,3,887,0,3,jacksoncore021,rEEFail=0,0<rEEPass<1
 com/fasterxml/jackson/core/util/TextBuffer.java,586,5.5,0,0,0,0,0,0,1,34,1,1,jacksoncore004,rEEFail=0,rEEPass=0
 com/fasterxml/jackson/core/sym/ByteQuadsCanonicalizer.java,925,11.5,0,0,0,0,0,0,4,687,4,4,jacksoncore010,rEEFail=0,rEEPass=0
 com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java,622,56.5,0,0,0,0,0,0,1,230,0,1,jacksoncore012,rEEFail=0,rEEPass=0
@@ -50,7 +50,7 @@ org/apache/commons/math/fraction/BigFraction.java,735,2.5,0,0.36,0,8,0,1,2,23,1,
 org/apache/commons/math/complex/Complex.java,153,1.5,0,0.0103092783505155,0,1,0,0,1,12,9,1,math053,rEEFail=0,0<rEEPass<1
 org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java,419,123.5,0,0,0,0,0,0,2,399,15,2,math068,rEEFail=0,rEEPass=0
 org/apache/commons/math/linear/CholeskyDecompositionImpl.java,114,62,1,0.285714285714286,2,2,0,0,2,209,6,2,math086,rEEFail=1,0<rEEPass<1
-org/apache/commons/math/linear/OpenMapRealMatrix.java,50,14.5,1,NaN,1,0,0,0,1,28,0,1,math045,rEEFail=1,0<rEEPass<1
+org/apache/commons/math/linear/OpenMapRealMatrix.java,50,14.5,1,0,1,0,0,0,1,28,0,1,math045,rEEFail=1,0<rEEPass<1
 org/apache/commons/math/util/MathUtils.java,543,3,1,0.214285714285714,0,0,2,9,2,31,0,1,math099,rEEFail=1,0<rEEPass<1
 org/apache/commons/math3/distribution/HypergeometricDistribution.java,268,46,0,0.0666666666666667,0,1,0,0,1,108,6,1,math002,rEEFail=0,0<rEEPass<1
 org/apache/commons/math/linear/ArrayRealVector.java,721,15,1,0.416666666666667,0,2,2,5,2,98,0,1,math077,rEEFail=1,0<rEEPass<1
@@ -100,7 +100,7 @@ org/jfree/chart/plot/ValueMarker.java,95,3,0,0,0,0,0,0,1,28,0,1,chart020,rEEFail
 org/jfree/data/xy/XYSeries.java,548,7.5,0,0,0,0,0,0,1,42,3,1,chart005,rEEFail=0,rEEPass=0
 org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java,741,9,0,0,0,0,0,0,1,112,1,1,chart021,rEEFail=0,rEEPass=0
 org/jfree/chart/util/ShapeList.java,111,15,0,0,0,0,0,0,2,125,1,2,chart006,rEEFail=0,rEEPass=0
-org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65,1.5,0,NaN,0,0,0,0,1,2,0,1,chart010,rEEFail=0,0<rEEPass<1
+org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65,1.5,0,0,0,0,0,0,1,2,0,1,chart010,rEEFail=0,0<rEEPass<1
 org/jfree/chart/util/ShapeUtilities.java,275,9.5,0,0,0,0,0,0,1,19,1,1,chart011,rEEFail=0,rEEPass=0
 org/jfree/data/time/TimePeriodValues.java,300,51,0,0,0,0,0,0,1,95,9,1,chart007,rEEFail=0,rEEPass=0
 org/jfree/chart/renderer/GrayPaintScale.java,126,2.5,0,0,0,0,0,0,1,8,0,1,chart024,rEEFail=0,rEEPass=0
@@ -155,7 +155,7 @@ org/apache/commons/lang3/math/NumberUtils.java,593,3.5,0,0.3625,0,0,0,29,1,43,3,
 org/apache/commons/lang3/StringUtils.java,1446,4.5,0,0,0,0,0,0,2,14,2,2,lang031,rEEFail=0,rEEPass=0
 org/apache/commons/lang3/math/NumberUtils.java,452,70.5,1,0.337837837837838,0,0,1,25,1,102,2,1,lang007,rEEFail=1,0<rEEPass<1
 org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,40,8.5,0,0,0,0,0,0,2,26,1,2,lang019,rEEFail=0,rEEPass=0
-org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,63,14,0,NaN,0,0,0,0,1,30,0,1,lang028,rEEFail=0,0<rEEPass<1
+org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,63,14,0,0,0,0,0,0,1,30,0,1,lang028,rEEFail=0,0<rEEPass<1
 org/apache/commons/lang3/time/FastDatePrinter.java,1134,17.5,0,0,0,0,0,0,2,253,2,2,lang008,rEEFail=0,rEEPass=0
 org/apache/commons/lang/ClassUtils.java,245,29,0,0.075,0,0,0,3,2,41,5,1,lang041,rEEFail=0,0<rEEPass<1
 org/apache/commons/lang3/math/NumberUtils.java,479,66.5,0,0.24,0,0,0,12,1,127,1,1,lang027,rEEFail=0,0<rEEPass<1
